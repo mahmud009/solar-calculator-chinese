@@ -213,7 +213,7 @@ export default function Calculator() {
       // } else {
       //   return month;
       // }
-      return [month, "Months"];
+      return [month, "个月"];
     });
 
     let extra = new Map([
@@ -288,7 +288,7 @@ export default function Calculator() {
                           variant="h1"
                           className={classes.resultTitle}
                         >
-                          Solar is a HIGH performing INVESTMENT
+                          太阳是一项高性能的投资
                         </Typography>
                       </Box>
                     </Grid>
@@ -310,7 +310,7 @@ export default function Calculator() {
 
 const useStyles = makeStyles((theme) => ({
   resultTitle: {
-    fontFamily: "Poppins",
+    fontFamily: "Noto Sans SC",
     fontSize: 48,
     letterSpacing: "0.01em",
     fontWeight: 700,

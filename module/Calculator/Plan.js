@@ -20,7 +20,7 @@ export default function Plan({ result, selectedMonths }) {
     <Box mt={3}>
       <Box textAlign="center">
         <Typography variant="h5" className={classes.planName}>
-          {result.month} Month Investment Plan
+          {result.month} 个月投资计划
         </Typography>
       </Box>
 
@@ -33,9 +33,14 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center">
               <Typography
                 variant="h6"
-                style={{ color: "white", fontSize: sm ? 14 : 20 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 14 : 20,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                Your Payments
+                费用
               </Typography>
             </Box>
             <Box textAlign="center" mt={2}>
@@ -53,18 +58,29 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center">
               <Typography
                 variant="h6"
-                style={{ color: "white", fontSize: 20, fontWeight: 400 }}
+                style={{
+                  color: "white",
+                  fontSize: 20,
+                  fontWeight: 400,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                Per Week
+                每周
               </Typography>
             </Box>
 
             <Box textAlign="center" mt={2}>
               <Typography
                 variant="subtitle1"
-                style={{ color: "white", fontSize: sm ? 12 : 16 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 12 : 16,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                {result.month} Month Total Cost
+                {result.month} 个月总费用
               </Typography>
             </Box>
             <Box textAlign="center">
@@ -76,9 +92,14 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center" mt={2}>
               <Typography
                 variant="subtitle1"
-                style={{ color: "white", fontSize: sm ? 12 : 16 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 12 : 16,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                1st-Year Cost
+                第一年费用
               </Typography>
             </Box>
             <Box textAlign="center">
@@ -97,9 +118,14 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center">
               <Typography
                 variant="h6"
-                style={{ color: "white", fontSize: sm ? 14 : 20 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 14 : 20,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                Estimated Benefits
+                预计收益
               </Typography>
             </Box>
             <Box textAlign="center" mt={2}>
@@ -117,18 +143,29 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center">
               <Typography
                 variant="h6"
-                style={{ color: "white", fontSize: 20, fontWeight: 400 }}
+                style={{
+                  color: "white",
+                  fontSize: 20,
+                  fontWeight: 400,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                Per Week
+                每周
               </Typography>
             </Box>
 
             <Box textAlign="center" mt={2}>
               <Typography
                 variant="subtitle1"
-                style={{ color: "white", fontSize: sm ? 12 : 16 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 12 : 16,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                {result.month} Month Total Estimated
+                {result.month} 个月总收益
               </Typography>
             </Box>
             <Box textAlign="center">
@@ -139,9 +176,14 @@ export default function Plan({ result, selectedMonths }) {
             <Box textAlign="center" mt={2}>
               <Typography
                 variant="subtitle1"
-                style={{ color: "white", fontSize: sm ? 12 : 16 }}
+                style={{
+                  color: "white",
+                  fontSize: sm ? 12 : 16,
+                  fontFamily: "Noto Sans SC",
+                  fontWeight: 400,
+                }}
               >
-                1st-Year Benefits
+                第一年预计收益
               </Typography>
             </Box>
             <Box textAlign="center">

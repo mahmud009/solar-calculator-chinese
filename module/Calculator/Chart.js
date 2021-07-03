@@ -12,7 +12,7 @@ export default function PlanChart({ chartData }) {
       labels: chartLabels,
       datasets: [
         {
-          label: "Total Cost",
+          label: "总费用",
           data: charAnnualCosts,
           pointBackgroundColor: "white",
           pointBorderWidth: 1,
@@ -23,7 +23,7 @@ export default function PlanChart({ chartData }) {
           borderColor: ["#3361C5"],
         },
         {
-          label: "Estimated Benifits",
+          label: "预计收益",
           data: chartSavings,
           pointBackgroundColor: "white",
           pointBorderWidth: 1,
